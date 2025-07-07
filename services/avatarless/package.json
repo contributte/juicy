@@ -9,7 +9,7 @@
     "watch": "tsc --watch"
   },
   "devDependencies": {
-    "@vercel/node": "^3.0.25",
+    "@vercel/node": "^5.3.4",
     "typescript": "^5.4.5"
   }
 }
