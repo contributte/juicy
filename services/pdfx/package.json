@@ -14,7 +14,7 @@
     "last 2 Chrome versions"
   ],
   "dependencies": {
-    "@sparticuz/chromium": "119.0.2",
+    "@sparticuz/chromium": "138.0.1",
     "puppeteer-core": "21.6.1",
     "vue": "^2.7.14"
   },
