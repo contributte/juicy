@@ -12,7 +12,7 @@
     "markdown-it": "^14.0.0"
   },
   "devDependencies": {
-    "@vercel/node": "^3.0.25",
+    "@vercel/node": "^5.3.12",
     "@types/markdown-it": "^12.2.3",
     "typescript": "^5.3.3"
   }
