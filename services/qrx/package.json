@@ -9,11 +9,11 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
-    "qrcode": "^1.5.3"
+    "qrcode": "^1.5.4"
   },
   "devDependencies": {
     "@vercel/node": "^3.0.25",
-    "@types/qrcode": "^1.4.1",
+    "@types/qrcode": "^1.5.5",
     "typescript": "^5.4.5"
   }
 }
