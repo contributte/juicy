@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@sparticuz/chromium": "119.0.2",
-    "puppeteer-core": "21.6.1",
+    "puppeteer-core": "22.11.2",
     "dayjs": "^1.11.8"
   },
   "devDependencies": {
