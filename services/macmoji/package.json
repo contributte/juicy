@@ -12,7 +12,7 @@
     "@obr/macmoji": "^0.0.2"
   },
   "devDependencies": {
-    "@vercel/node": "^5.3.24",
+    "@vercel/node": "^5.5.0",
     "typescript": "^5.4.5"
   }
 }
