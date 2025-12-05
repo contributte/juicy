@@ -15,7 +15,7 @@ on:
       orgId:
         required: false
         type: string
-        default: "team_IkoklT80okK0VAeKnM87wuvk"
+        default: "team_aaYuSiX1Vb77W69ZiwecCbap"
 
 jobs:
   deploy:
