@@ -25,7 +25,7 @@
     "@obr/svgporn": "0.0.1",
     "@obr/twemoji": "^0.0.1",
     "cheerio": "^1.0.0-rc.9",
-    "fast-glob": "^3.3.2"
+    "fast-glob": "^3.3.3"
   },
   "devDependencies": {
     "@vercel/node": "^5.5.2",
