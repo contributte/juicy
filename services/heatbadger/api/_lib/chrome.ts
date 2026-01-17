@@ -25,6 +25,6 @@ export async function getImage(chromeOptions: ChromeOptions, browserOptions: Chr
   if (Buffer.isBuffer(content)) {
     return content;
   } else {
-    return Buffer.from(content as string);
+    return Buffer.from(content);
   }
 }

@@ -1,4 +1,4 @@
-import Puppeteer, { Browser, PuppeteerLaunchOptions } from "puppeteer-core";
+import Puppeteer, { Browser, LaunchOptions } from "puppeteer-core";
 import chromeAws from "@sparticuz/chromium";
 
 export async function createBrowser(args: ChromeLaunchOptions = {}): Promise<Browser> {
@@ -9,7 +9,7 @@ export async function createBrowser(args: ChromeLaunchOptions = {}): Promise<Bro
       height: 640,
     }
   };
-  let options: PuppeteerLaunchOptions = {};
+  let options: LaunchOptions = {};
 
   if (isDev()) {
     options = {

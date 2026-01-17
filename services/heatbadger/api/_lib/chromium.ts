@@ -1,4 +1,4 @@
-import Puppeteer, { Browser, PuppeteerLaunchOptions } from "puppeteer-core";
+import Puppeteer, { Browser, LaunchOptions } from "puppeteer-core";
 import chromeAws from "@sparticuz/chromium";
 import { isDev } from "./utils";
 
@@ -13,7 +13,7 @@ export async function createBrowser(args: ChromeLaunchOptions = {}): Promise<Bro
       isMobile: false,
     }
   };
-  let options: PuppeteerLaunchOptions = {};
+  let options: LaunchOptions = {};
 
   if (isDev()) {
     options = {

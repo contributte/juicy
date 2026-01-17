@@ -1,11 +1,11 @@
-import Puppeteer, { Browser, PuppeteerLaunchOptions } from "puppeteer-core";
+import Puppeteer, { Browser, LaunchOptions } from "puppeteer-core";
 import chromeAws from "@sparticuz/chromium";
 
 export async function createBrowser(args: ChromeLaunchOptions = {}): Promise<Browser> {
   const defaults: ChromeLaunchOptions = {
     ignoreHTTPSErrors: true,
   };
-  let options: PuppeteerLaunchOptions = {};
+  let options: LaunchOptions = {};
 
   if (isDev()) {
     options = {

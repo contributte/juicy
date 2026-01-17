@@ -16,17 +16,17 @@
   "dependencies": {
     "@sparticuz/chromium": "119.0.2",
     "puppeteer-core": "24.22.3",
-    "vue": "^2.7.14"
+    "vue": "^2.7.16"
   },
   "devDependencies": {
-    "@vercel/node": "^5.3.24",
+    "@vercel/node": "^5.5.23",
     "@vue/component-compiler-utils": "^3.3.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "parcel-bundler": "^1.12.5",
-    "sass": "^1.93.2",
-    "typescript": "^5.3.3",
+    "sass": "^1.97.2",
+    "typescript": "^5.9.3",
     "vue-hot-reload-api": "^2.3.4",
-    "vue-template-compiler": "^2.7.14"
+    "vue-template-compiler": "^2.7.16"
   }
 }
