@@ -11,7 +11,7 @@ export async function getImage(chromeOptions: ChromeOptions, browserOptions: Chr
     await page.setContent(chromeOptions.content);
 
     if (chromeOptions.wait) {
-      await page.waitForTimeout(chromeOptions.wait);
+      await new Promise(resolve => setTimeout(resolve, chromeOptions.wait));
     }
 
     content = await page.screenshot();
@@ -29,7 +29,7 @@ export async function getImage(chromeOptions: ChromeOptions, browserOptions: Chr
   if (Buffer.isBuffer(content)) {
     return content;
   } else {
-    return Buffer.from(content as string);
+    return Buffer.from(content);
   }
 }
 

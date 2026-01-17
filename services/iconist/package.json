@@ -24,15 +24,14 @@
     "@obr/remixicon": "0.0.1",
     "@obr/svgporn": "0.0.1",
     "@obr/twemoji": "^0.0.1",
-    "cheerio": "^1.0.0-rc.9",
-    "fast-glob": "^3.3.2"
+    "cheerio": "^1.1.2",
+    "fast-glob": "^3.3.3"
   },
   "devDependencies": {
-    "@vercel/node": "^5.5.2",
-    "@types/cheerio": "^1.0.0",
     "@types/feather-icons": "^4.29.4",
+    "@vercel/node": "^5.5.23",
     "micro": "^10.0.1",
-    "micro-dev": "^3.0.0",
-    "typescript": "^5.4.5"
+    "micro-dev": "^3.1.0",
+    "typescript": "^5.9.3"
   }
 }

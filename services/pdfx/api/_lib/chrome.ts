@@ -43,7 +43,7 @@ export async function getPdf(source: PdfSource, options: PDFOptions): Promise<Bu
   if (Buffer.isBuffer(content)) {
     return content;
   } else {
-    return Buffer.from(content as string);
+    return Buffer.from(content);
   }
 }
 
