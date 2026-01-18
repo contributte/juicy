@@ -1,7 +1,7 @@
 .PHONY: install
 install:
-	npx lerna exec npm install
+	npm install
 
 .PHONY: compile
 compile:
-	npx lerna run compile
+	npx nx run-many -t compile

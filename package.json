@@ -1,5 +1,10 @@
 {
+  "name": "juicy",
+  "private": true,
+  "workspaces": [
+    "services/*"
+  ],
   "devDependencies": {
-    "lerna": "^8.2.4"
+    "nx": "^20.4.2"
   }
 }
