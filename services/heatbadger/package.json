@@ -11,7 +11,7 @@
   "dependencies": {
     "@sparticuz/chromium": "119.0.2",
     "dayjs": "^1.11.19",
-    "puppeteer-core": "24.22.3"
+    "puppeteer-core": "24.35.0"
   },
   "devDependencies": {
     "@vercel/node": "^5.5.23",
