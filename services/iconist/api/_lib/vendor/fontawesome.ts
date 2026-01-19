@@ -1,4 +1,4 @@
-import cheerio from "cheerio";
+import * as cheerio from "cheerio";
 import path from "path";
 import { readFile, lowercase, readPackage } from "../utils";
 import { NotFoundError } from "../errors";
