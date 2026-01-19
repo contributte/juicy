@@ -2,7 +2,7 @@
   "name": "insigne",
   "version": "0.0.0",
   "engines": {
-    "node": ">=18.x"
+    "node": ">=24.x"
   },
   "scripts": {
     "compile": "tsc",
