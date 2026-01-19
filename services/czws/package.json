@@ -13,6 +13,6 @@
     "xml-js": "^1.6.11"
   },
   "devDependencies": {
-    "@vercel/node": "^5.5.23"
+    "@vercel/node": "^5.5.24"
   }
 }
