@@ -1,6 +1,9 @@
 {
   "name": "juicy",
   "private": true,
+  "engines": {
+    "node": ">=24.x"
+  },
   "workspaces": [
     "services/*"
   ],
