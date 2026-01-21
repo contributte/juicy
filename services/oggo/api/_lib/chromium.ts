@@ -29,7 +29,7 @@ export async function createBrowser(args: ChromeLaunchOptions = {}): Promise<Bro
       ...{
         args: chromeAws.args,
         executablePath: await chromeAws.executablePath(),
-        headless: chromeAws.headless,
+        headless: true,
         ignoreHTTPSErrors: true,
       }
     };
