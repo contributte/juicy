@@ -29,13 +29,6 @@ export async function createBrowser(args: ChromeLaunchOptions = {}): Promise<Bro
     };
   }
 
-  // Extra fonts
-  await Promise.all([
-    chromeAws.font('https://rawcdn.githack.com/rsms/inter/c57a2aa4f7d3ebe3e188c2ab3617b925d93e3230/docs/font-files/Inter-Regular.woff2'),
-    chromeAws.font('https://rawcdn.githack.com/rsms/inter/c57a2aa4f7d3ebe3e188c2ab3617b925d93e3230/docs/font-files/Inter-SemiBold.woff2'),
-    chromeAws.font('https://rawcdn.githack.com/rsms/inter/c57a2aa4f7d3ebe3e188c2ab3617b925d93e3230/docs/font-files/Inter-Bold.woff2'),
-  ]);
-
   return await Puppeteer.launch(options);
 }
 
