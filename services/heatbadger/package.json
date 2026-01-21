@@ -9,7 +9,7 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
-    "@sparticuz/chromium": "141.0.0",
+    "@sparticuz/chromium": "143.0.4",
     "dayjs": "^1.11.19",
     "puppeteer-core": "24.35.0"
   },
