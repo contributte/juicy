@@ -9,12 +9,12 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
-    "@sparticuz/chromium": "119.0.2",
+    "@sparticuz/chromium": "141.0.0",
     "dayjs": "^1.11.19",
-    "puppeteer-core": "24.22.3"
+    "puppeteer-core": "24.35.0"
   },
   "devDependencies": {
-    "@vercel/node": "^5.5.23",
+    "@vercel/node": "^5.5.25",
     "typescript": "^5.9.3"
   }
 }

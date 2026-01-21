@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/tinycolor2": "^1.4.6",
-    "@vercel/node": "^5.5.23",
+    "@vercel/node": "^5.5.25",
     "typescript": "^5.9.3"
   }
 }
