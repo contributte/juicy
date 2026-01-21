@@ -14,12 +14,12 @@
     "last 2 Chrome versions"
   ],
   "dependencies": {
-    "@sparticuz/chromium": "119.0.2",
-    "puppeteer-core": "24.22.3",
+    "@sparticuz/chromium": "141.0.0",
+    "puppeteer-core": "24.35.0",
     "vue": "^2.7.16"
   },
   "devDependencies": {
-    "@vercel/node": "^5.5.23",
+    "@vercel/node": "^5.5.25",
     "@vue/component-compiler-utils": "^3.3.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
