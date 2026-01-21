@@ -16,7 +16,9 @@ Services using headless Chromium (fcbk, heatbadger, oggo, pdfx, socky) depend on
 - Node.js 24.x requires `@sparticuz/chromium` >= 143.0.0
 - The `@sparticuz/chromium` version should match the major Chromium version supported by `puppeteer-core`
 
-If you encounter `libnspr4.so` or similar shared library errors, ensure the `@sparticuz/chromium` version supports the Node.js runtime being used.
+**Breaking changes in v143.0.0:**
+- The `chromeAws.font()` method was removed - fonts are now bundled and auto-extracted via `executablePath()`
+- If you encounter `libnspr4.so` or similar shared library errors, ensure the `@sparticuz/chromium` version supports the Node.js runtime being used
 
 ## Vercel Deployment
 
