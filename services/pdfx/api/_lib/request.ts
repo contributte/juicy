@@ -36,7 +36,7 @@ export function parsePdfOptions(query: QueryParams): PDFOptions {
   // }
 
   if (query.scale !== undefined) {
-    options.scale = Number.parseInt(query.scale);
+    options.scale = Number.parseFloat(query.scale);
   }
 
   if (query.displayHeaderFooter !== undefined) {
