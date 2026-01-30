@@ -32,9 +32,6 @@ and givin something back to the community. Enjoy it!
 - [**avatarless**](services/avatarless) - gravatar-based avatars supporting initials [[👀🕶](https://avatarless.vercel.app)]
 - [**coloring**](services/coloring) - generate colors with dark/light background and inversed text color [[👀🕶](https://coloring.vercel.app)]
 - [**corsless**](services/corsless) - handy proxy for Github services supporting CORS headers [[👀🕶](https://corsless.vercel.app)]
-
-> [!TIP]
-> For a general-purpose CORS proxy, you can also check out https://cors-anywhere.com/
 - [**czws**](services/czws) - Czech Republic webservices (e.q. ARES) [[👀🕶](https://czws.vercel.app)]
 - [**fcbk**](services/fcbk) - generate screenshots from facebook [[👀🕶](https://fcbk.vercel.app)]
 - [**flyx**](services/flyx) - on-the-fly file converting (Markdown -> HTML) [[👀🕶](https://flyx.vercel.app)]
