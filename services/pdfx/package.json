@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "@sparticuz/chromium": "143.0.4",
-    "puppeteer-core": "24.39.1",
+    "puppeteer-core": "24.40.0",
     "vue": "^2.7.16"
   },
   "devDependencies": {
