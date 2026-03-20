@@ -8,6 +8,6 @@
     "services/*"
   ],
   "devDependencies": {
-    "nx": "^20.4.2"
+    "nx": "^22.6.1"
   }
 }
